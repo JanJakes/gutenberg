@@ -202,12 +202,6 @@ export default function EditPostPreferencesModal() {
 							<EnablePluginDocumentSettingPanelOption.Slot />
 							{ isViewable && (
 								<EnablePanelOption
-									label={ __( 'Permalink' ) }
-									panelName="post-link"
-								/>
-							) }
-							{ isViewable && (
-								<EnablePanelOption
 									label={ __( 'Template' ) }
 									panelName="template"
 								/>
